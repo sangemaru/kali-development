@@ -53,3 +53,5 @@ lightdm:x:113:
 sangemaru:x:1000:
 ssl-cert:x:114:
 mysql:x:115:
+nobody:x:999:
+systemd-coredump:x:998:

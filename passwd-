@@ -28,4 +28,4 @@ sshd:x:108:65534::/run/sshd:/usr/sbin/nologin
 pulse:x:109:111:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
 lightdm:x:110:113:Light Display Manager:/var/lib/lightdm:/bin/false
 sangemaru:x:1000:1000:Vlad Tudorie,,,:/sangemaru:/bin/zsh
-mysql:x:111:115::/nonexistent:/bin/false
+mysql:x:111:115:MySQL Server,,,:/nonexistent:/bin/false

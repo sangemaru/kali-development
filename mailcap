@@ -36,6 +36,8 @@ text/xml; /usr/bin/firefox-esr %s; description=XML Text; test=test -n "$DISPLAY"
 application/x-troff-man; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/usr/bin/nroff -mandoc -Tutf8 | print text/plain:-
 text/troff; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/usr/bin/nroff -mandoc -Tutf8 | print text/plain:-
 text/plain; more %s; needsterminal
+text/plain; /usr/share/code/code --new-window %s; test=test -n "$DISPLAY"
+inode/directory; /usr/share/code/code --new-window %s; test=test -n "$DISPLAY"
 inode/directory; exo-open --launch FileManager %s; test=test -n "$DISPLAY"
 x-scheme-handler/trash; exo-open --launch FileManager %s; test=test -n "$DISPLAY"
 x-scheme-handler/mailto; exo-open --launch MailReader %s; test=test -n "$DISPLAY"
